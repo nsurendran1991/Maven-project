@@ -13,7 +13,7 @@ pipeline {
             post {
                  always {
                       junit '**/target/surefire-reports/TEST-*.xml'
-                      jiraSendBuildInfo site: 'vbollu-jenkins-test.atlassian.net', branch:'JIT-6-Test-branch'
+                      jiraSendBuildInfo site: 'nsurendran1991.atlassian.net'
                  }
              }
         }
@@ -25,7 +25,7 @@ pipeline {
             }
             post {
                 always {
-                    jiraSendDeploymentInfo site: 'vbollu-jenkins-test.atlassian.net', enableGating: false, environmentId: 'jenkins-testing-prod-1', environmentName: 'jenkins-testing-prod-1', environmentType: 'production'
+                    jiraSendDeploymentInfo site: 'nsurendran1991.atlassian.net', enableGating: false, environmentId: 'jenkins-testing-prod-1', environmentName: 'jenkins-testing-prod-1', environmentType: 'production'
                 }
             }
         }
