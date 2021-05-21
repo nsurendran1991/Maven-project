@@ -6,7 +6,6 @@ import static org.junit.Assert.assertTrue;
 
 
 @SpringBootTest
-
 class MavenProjectApplicationTests {
 
 	@Test
