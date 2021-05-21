@@ -8,6 +8,6 @@ public class MavenProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MavenProjectApplication.class, args);
-	}
+	}   
 
 }
