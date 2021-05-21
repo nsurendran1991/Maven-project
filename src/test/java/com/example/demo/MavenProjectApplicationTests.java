@@ -8,10 +8,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 @AutoConfigureMockMvc
 class MavenProjectApplicationTests {
 
-	
+	@Test
 	void contextLoads() {
 	}
 	
+	@Test
 	public void test(){
 	  assertTrue(true);
 	}
