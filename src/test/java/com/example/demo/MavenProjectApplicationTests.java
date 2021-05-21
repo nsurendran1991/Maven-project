@@ -1,20 +1,31 @@
-package com.example.demo;
+package com.zipcodecheck;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 @SpringBootTest
-class MavenProjectApplicationTests {
+class ZipCodeApplicationTests {
 
+//	@Test
+//	void contextLoads() {
+//	}
+	
 	@Test
-	void contextLoads() {
+	void test1() {
+		
+		assertTrue(true);
+		
 	}
 	
 	@Test
-	public void test(){
-	  assertTrue(true);
+	void test2() {
+		assertTrue(true);	
 	}
-
-}
+	
+	
