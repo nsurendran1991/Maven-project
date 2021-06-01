@@ -7,25 +7,14 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import com.example.demo.MavenProjectApplication;
 
+@SpringBootTest(classes = MavenProjectApplication.class)
+class MavenProjectApplicationTests {
 
-@SpringBootTest
-class ZipCodeApplicationTests {
-
-//	@Test
-//	void contextLoads() {
-//	}
-	
 	@Test
-	void test1() {
-		
-		assertTrue(true);
-		
+	void contextLoads() {
 	}
-	
-	@Test
-	void test2() {
-		assertTrue(true);	
-	}
+}
 	
 	
